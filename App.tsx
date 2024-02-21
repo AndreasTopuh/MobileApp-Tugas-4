@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import Register from './component/Registration';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <View style={{ flex: 1 }}>
       <Register />
