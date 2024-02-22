@@ -1,13 +1,13 @@
-
 import React from 'react';
-import {View} from 'react-native';
-import UserList from './component/Userlist/UserListScreen';
+import { View } from 'react-native';
+import Register from './component/Registration';
 
 
-const App = () => {
+const App: React.FC = () => {
+  console.log("halo");
   return (
-    <View>
-      <UserList />
+    <View style={{ flex: 1 }}>
+      <Register />
     </View>
   );
 };
