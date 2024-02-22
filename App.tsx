@@ -2,13 +2,14 @@
 import React from 'react';
 import { View } from 'react-native';
 import Register from './component/Registration';
+import UserList from './component/Userlist/UserListScreen';
 
 
 const App: React.FC = () => {
-  console.log("halo");
   return (
     <View style={{ flex: 1 }}>
-      <Register />
+      {/* <Register /> */}
+      <UserList/>
     </View>
   );
 };
